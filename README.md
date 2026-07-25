@@ -132,24 +132,11 @@ Document-OCR/
 
 ## ⚠️ Limitations
 
-- OCR accuracy depends heavily on image quality, lighting, and glare
-- Handwritten sections (e.g., signatures) are not reliably read
-- **Document type detection** is keyword/rule-based, not a trained
-  classifier — it can misfire on unusual layouts or heavily cropped images
-- **Field extraction** (Name, DOB, Document Number) relies on regex
-  patterns and label-adjacency heuristics; it works well on clean,
-  well-lit scans but is not guaranteed correct on every layout/state
-  variant (this is especially true for Driving Licence numbers, which
-  vary a lot by Indian state)
-- The **quality check** is a simple confidence threshold, not a true
-  fraud/tamper/liveness detector
-- This project performs **automated text extraction and classification
-  only** — it does **not** perform official identity verification,
-  fraud detection, or database matching against government records
-- Currently supports **English text only**
-- Not intended for production use with real personal data without
-  additional security, encryption, and compliance (e.g., data privacy
-  laws) measures in place
+- OCR accuracy depends on image quality.
+- Document classification and field extraction are rule-based and may not work for all layouts.
+- Supports English documents only.
+- Does not perform identity verification, fraud detection, or database validation.
+- Intended for educational purposes and not production use.
 
 ---
 
