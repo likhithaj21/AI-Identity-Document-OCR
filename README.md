@@ -207,12 +207,6 @@ Then open the local URL printed in your terminal (usually
 
 ---
 
-## 📄 License
-
-This project is provided for educational and prototyping purposes.
-Feel free to fork, modify, and build upon it.
-
----
 
 ## 🙏 Acknowledgements
 
