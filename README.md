@@ -97,42 +97,6 @@ Document-OCR/
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/Document-OCR.git
-cd Document-OCR
-```
-
-### 2. (Recommended) Create a virtual environment
-```bash
-python -m venv venv
-
-# Activate it
-source venv/bin/activate      # macOS / Linux
-venv\Scripts\activate         # Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-> **Note:** The very first run will download the EasyOCR English model
-> weights (~65 MB) automatically. This requires an internet connection
-> the first time only — after that, the model is cached locally.
-
----
-
-## ▶️ How to Run
-
-```bash
-python app.py
-```
-
-Then open the local URL printed in your terminal (usually
-`http://127.0.0.1:7860`) in your web browser.
 
 **Using the app:**
 1. Click the upload box and select a photo of an Aadhaar, PAN, Passport,
@@ -146,27 +110,9 @@ Then open the local URL printed in your terminal (usually
 
 ---
 
-## 🖼️ Screenshots
 
-> Add your own screenshots to the `screenshots/` folder and reference
-> them here, for example:
 
-```
-![App UI](screenshots/app_ui.png)
-![Extraction Result](screenshots/extraction_result.png)
-```
 
----
-
-## 🚀 Applications in Identity Verification
-
-- **KYC (Know Your Customer) automation** for banks, fintech, and telecom onboarding
-- **Digital form auto-fill** — automatically populate name/DOB/ID number fields
-- **Document authenticity checks** — combined with a downstream field-validation layer
-- **Bulk digitization** of physical ID archives into searchable text records
-- **Access control systems** — quick ID scanning at gates/checkpoints
-
----
 
 ## 🔮 Future Improvements
 
